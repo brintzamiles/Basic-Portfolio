@@ -1,0 +1,67 @@
+.container01 {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+  
+ 
+}
+
+.logo {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+    margin: 0% 17.5% 10% 16%;
+   
+}
+
+.topnav {
+    float: right;
+    border: #cccccc;
+    margin-top: 2%; 
+    margin-right: 15.5%;
+
+}
+
+
+main {
+   width: 100%;
+    overflow: auto;
+    clear: both;
+    width: 960px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin: 1% 0% 15% 16%;
+    background-color: teal;
+    border: 1px; solid blue
+    background-image: url("assets/images/full-bloom.png")
+}
+
+
+
+about-me {
+    float: left;
+    width: 960px;
+    padding: 10px;
+    margin-left: 30px;
+    background-image: url("assets/images/full-bloom.png");
+
+  }
+  
+.about-me {
+    
+
+}
+
+
+.container03 {
+    
+   
+ 
+  clear: both;
+
+   width: 960px;
+    
+}
+.about-me {
+
+
+}

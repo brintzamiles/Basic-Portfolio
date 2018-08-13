@@ -1,0 +1,120 @@
+.header-container01 {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    height: 60px;
+    }
+    
+
+
+
+.logo {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+    margin: 0% 0% 0% 125px;    
+    border-bottom: none;
+    height: 100%;
+    width: 270px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+
+.topnav {
+	float: right;
+	text-align: center;
+	margin-right: 125px;
+    border: #cccccc;
+    width: 270px;
+
+}
+
+
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+
+li.divider {
+	border-right: 1px solid #dddddd;
+	padding: 10px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+li {
+	float: left;
+	width: 33%;
+	padding: 10px;
+}
+
+
+
+main {
+   width: 100%;
+    overflow: auto;
+    clear: both;
+    width: 960px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin: 1% 0% 15% 16%;
+    border: 1px; solid blue
+    background-image: url("assets/images/full-bloom.png")
+}
+
+.main-container02 {
+	clear: both;
+	overflow: auto;
+	margin: 0 auto;
+	background-image: url("../images/background.png");
+	height: 600px;
+	width: 100%;
+	border-bottom: 5px solid #4aaaa5;
+}
+
+
+
+#about-me {
+    
+    position:  relative;
+
+    width: 650px;
+    text-align: full;
+    top: 30px;
+    margin-left: 125px;
+     margin-bottom: 50px;
+
+
+}
+
+  
+.about-me {
+    
+
+}
+
+
+.container03 {
+    
+   
+ 
+  clear: both;
+
+   width: 960px;
+    
+}
+.about-me {
+
+
+}
