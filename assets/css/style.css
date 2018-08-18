@@ -7,33 +7,30 @@ body {
 	width: 100%;
 }
 
-
-
 .header-container01 {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
-    height: 60px;
-    }
-    
-
- 
+    height: 75px;
+    margin-top: 0px; 
+    } 
 
 .logo {
     color: #ffffff;
     background-color: #4aaaa5;
     float: left;
     margin-left: 125px;  
-    margin-top: 0px; 
-    border-bottom: none;
-    height: 100%;
+    height: 75px;
     width: 270px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
     font-weight: bold;
     vertical-align: middle;
-
 }
 
+.button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
 
 .topnav {
 	float: right;
@@ -51,10 +48,17 @@ a {
 }
 
 
+
 li.divider {
-	border-right: 1px solid #dddddd;
-	padding: 10px;
+border-right: 1px solid #dddddd;
+padding: 10px;
 }
+
+li.nodivider {
+   
+    padding: 10px;
+    }
+
 
 ul {
 	list-style: none;
@@ -78,53 +82,62 @@ Section	{
     float: left;
     font-family: Arial, Helvetica, sans-serif;
 	
-    border: 2px solid #dddddd;   
 }
     
 .main-container02 { 
         clear: both;
         overflow: auto;
-        margin: 0 auto;
-        height: 100%;
+        margin-left: 10;
+        height: 500px;
         width: 100%;
         background-image: url(../images/full-bloom.png);
-        border-bottom: 5px solid #4aaaa5;   
 }
 
 
 #about-me {
     position:  relative;
-    float"  left;
+    float: left;
     width: 960px;
     text-align: full;
     top: 30px;
-    margin-left: 125px;
-    margin-bottom: 50px;
+    margin-left:125px;
+    margin-right:125px;
+    margin-top: 10px;
+    margin-bottom: 125px;
     height: auto;
     padding: 20px;
 }
 
-#contact-form {
+.contact-form {
     position:  relative;
+    float:  left;
     width: 960px;
-    text-align: full;
     top: 30px;
-    margin-left: 125px;
-    margin-bottom: 50px;
+    text-align: full;
+    margin-left:125px;
+    margin-right:125px;
+    margin-top: 10px;
+    margin-bottom: 125px;
     height: auto;
     padding: 20px;
+    width: 960px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#about-me {
-	padding: 20px;
-	height: 500px;
+
+
+
+.portfolio.border {
+	border-right: 1px solid #dddddd;
+	padding: 10px;
 }
 
 input,
 textarea {
-	width: 100%;
+	width: 925px;
 	padding: 10px 20px 10px 10px;
-    margin: 8px 0;
+    margin: 0px 0;
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
@@ -135,14 +148,65 @@ footer {
     clear: both;
     margin: 0 auto;
     vertical-align: middle;
-    padding: 18px;
-    height: 70px;
+    text-align: center;
+    
+    padding: 0px;
+    height: 40px;
     background-color: #666666;
     width: 100%;
-    border-bottom: none;
+    border-top: 5px solid #4aaaa5;  
     color: white;
     text-align: center;
 }
 
+#bio-image {
+ float: left;  
+ margin-right: 10px; 
+}
 
 
+
+
+
+.project {
+	float: left;
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.project-title {
+	float: left;
+	position: relative;
+	top: -50px;
+	width: 100%;
+	height: 30px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+}
+
+ul.project {
+    width: 700px;
+}
+.portfolio {
+    float: left;
+	position: relative;
+	text-align: left;
+    width: 960px;
+    height: 600px;
+	top: 30px;
+	margin-left: 125px;
+    margin-bottom: 50px;
+    float: left;
+    padding: 15px;
+    background-color: #ffffff;
+
+}
+
+.block {
+	display: inline-block;
+	width: 250px;
+	height: 100px;
+	margin: 20px;
+}

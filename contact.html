@@ -18,34 +18,34 @@
             <ul>
                 <li class="divider"> <a href="index.html">About</a></li>
                 <li class = "divider"><a href= "portfolio.html">Portfolio</a></li>
-                <li> <a href="contact.html">Contact </a></li>
+                <li class = "nodivider"><a href="contact.html">Contact </a></li>
         
                 
             </ul>       
         </div>
     </div>   
 
-    
 
     <div class="main-container02"> 
-		<Section id="contact-form">
-			<h2>Contact</h2>
-			<form id="contact" action="login.php" method="post">    
-				<label for="name">Name</label><br>
-				<input id="name" type="text" autocomplete="username" placeholder="Jane Doe" required><br>
-				<label for="email">Email</label><br>
-				<input id="email" type="email" name="email" autocomplete="email"
-					   placeholder="example@gmail.com" required><br>
-				<label for="textfield">Message</label><br>
-				<textarea id="textfield" rows="7"></textarea><br>
+            <div class ="contact-form">
+            <h2>Contact</h2>
+            <hr>
+            <form id="contact-form" action="action_page.php" method="post">
+                <label for="name">Name</label> <br>
+                <input id="name" type="text" autocomplete= "name" placeholder= "John Smith" required><br>
+                <label for="email"> Email </label> <br>
+                <input id= "email" type= "email" name= "email" autocomplete= "email"
+                    placeholder= "example@gmail.com" required><br>
+                <label for="textfield">Message</label><br>
+				<textarea id= "message" rows="7"> </textarea><br>
 				<button class="button" type="submit" name="submit">Submit</button>
 			</form>
-        </Section>
+        </div>
     </div>       
  
 
  
-    	<footer> Copyright 2018 Brintza Miles</footer>
+    <footer> Copyright © 2018</footer>
 
 </body>
 
