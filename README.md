@@ -65,7 +65,7 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
 ### Additional Specifcations
 
 1. Colors _Pro-tip: Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors used on web pages._
-* Teal color (used for headings and backgrounds): `#4aaaa5`
+* Teal color (used for headings and backgrounds): ` `
 * Regular font color (used for paragraphs and all text besides the headings): `#777777`
 * Main header background color: `#ffffff`
 * Main header border color: `#cccccc`
